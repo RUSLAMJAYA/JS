@@ -5,6 +5,6 @@
             } else {
                 document.querySelector("#loader").style.display = "none";
                 document.querySelector("body").style.visibility = "visible";
-		document.getElementById("topheader").style.display = "";    
+		document.getElementById("topheader").style.visibility = "visible";    
             }
         };
