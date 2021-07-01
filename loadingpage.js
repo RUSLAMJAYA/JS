@@ -5,6 +5,6 @@
             } else {
                 document.querySelector("#loader").style.display = "none";
                 document.querySelector("body").style.visibility = "visible";
-		document.getElementById("topheader").style.display = "inline-block";    
+		document.getElementById("topheader").style.display = "";    
             }
         };
