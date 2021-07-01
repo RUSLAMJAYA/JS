@@ -3,7 +3,7 @@
                 document.querySelector(
                   "body").style.visibility = "hidden";
 				document.getElementById(
-                  "tophead").style.visibility = "hidden";
+                  "topheader").style.visibility = "hidden";
                 document.querySelector(
                   "#loader").style.visibility = "visible";
             } else {
@@ -12,6 +12,6 @@
                 document.querySelector(
                   "body").style.visibility = "visible";
 				document.getElementById(
-                  "tophead").style.visibility = "visible";				  
+                  "topheader").style.visibility = "visible";				  
             }
         };
