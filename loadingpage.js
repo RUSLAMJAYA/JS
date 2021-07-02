@@ -13,4 +13,3 @@
 				}, 9000);
             }
         };
-design-blogger
