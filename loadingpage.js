@@ -1,6 +1,6 @@
         document.onreadystatechange = function() {
             if (document.readyState !== "complete") {
-				document.querySelector("body").style.height = "80vh";
+				document.querySelector("body").style.height = "70vh";
                 document.querySelector("body").style.visibility = "hidden";
 				document.querySelector(".design-blogger").style.visibility = "hidden";
 				document.querySelector("#loader").style.visibility = "visible";
