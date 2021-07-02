@@ -9,7 +9,7 @@
                 document.querySelector("#loader").style.display = "none";
 				document.querySelector("body").style.height = "auto";
                 document.querySelector("body").style.visibility = "visible";
-				document.querySelector(".dd01").style.visibility = "50px";
+				document.querySelector(".dd01").style.visibility = "auto";
 				}, 9000);
             }
         };
