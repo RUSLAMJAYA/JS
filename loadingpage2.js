@@ -1,15 +1,15 @@
         document.onreadystatechange = function() {
             if (document.readyState !== "complete") {
                 document.querySelector("#body").style.visibility = "hidden";
-		document.querySelector("#loader").style.visibility = "visible";
-  		document.querySelector("#loader").style.position  = "fixed";
+		document.querySelector("#preloading").style.visibility = "visible";
+  		document.querySelector("#preloading").style.position  = "fixed";
             } else {
 		setTimeout(function(){
-                document.querySelector("#loader").style.display = "none";
+                document.querySelector("#preloading").style.display = "none";
                 document.querySelector("#body").style.visibility = "visible";
   		document.querySelector("#body").style.height = "auto";
   		document.querySelector("#body").style.backgroundColor  = "white";
-    		document.querySelector("#loader").style.position  = "relative";
+    		document.querySelector("#preloading").style.position  = "relative";
 		}, 9000);
             }
         }; 
